@@ -1,0 +1,110 @@
+body {  
+  font-family: 'Arial', sans-serif;  
+  background: linear-gradient(to bottom, #ffffff, #86d9f2); /* Gradient background */  
+  height: 100vh;  
+  display: flex;  
+  justify-content: center;  
+  align-items: center;  
+  margin: 0;  
+}  
+
+.login-container {  
+  width: 100%;  
+  max-width: 400px;  
+  background: #ffffff;  
+  border-radius: 20px;  
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);  
+  padding: 30px;  
+  text-align: center;  
+}  
+.signup-container {  
+  width: 100%;  
+  max-width: 400px;  
+  background: #ffffff;  
+  border-radius: 20px;  
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);  
+  padding: 30px;  
+  text-align: center;  
+}  
+
+.login-container h1 {  
+  font-size: 24px;  
+  font-weight: bold;  
+  margin-bottom: 10px;  
+}  
+
+.login-container p {  
+  font-size: 14px;  
+  color: #6c757d;  
+  margin-bottom: 20px;  
+}  
+
+.form-control {  
+  border: 1px solid #ced4da;  
+  border-radius: 10px;  
+  padding: 10px;  
+  font-size: 14px;  
+  margin-bottom: 15px;  
+  text-align: right; /* Align text to the right for Persian */  
+}  
+
+.btn-primary {  
+  background-color: #86d9f2;  
+  border: none;  
+  border-radius: 10px;  
+  padding: 10px;  
+  font-size: 16px;  
+  font-weight: bold;  
+  color: #ffffff;  
+  width: 100%;  
+  cursor: pointer;  
+}  
+
+.btn-primary:hover {  
+  background-color: #74c3e0;  
+}  
+
+.forgot-password {  
+  font-size: 14px;  
+  color: #6c757d;  
+  margin-top: 10px;  
+  display: block;  
+  text-decoration: none;  
+}  
+
+.forgot-password:hover {  
+  text-decoration: underline;  
+}  
+
+.language-select {  
+  margin-top: 20px;  
+  width: 50px; /* Smaller width */  
+  height: 30px; /* Adjust height for better visibility */  
+  font-size: 14px; /* Adjust font size */  
+  text-align: left;  
+  padding: 5px;  
+  border-radius: 10px;  
+  border: 1px solid #ced4da;  
+}  
+
+.signup-button {  
+  margin-top: 20px;  
+  font-size: 16px;  
+  color: #86d9f2;  
+  text-decoration: none;  
+  display: flex;  
+  align-items: center;  
+  justify-content: center;  
+}  
+
+.signup-button svg {  
+  margin-left: 5px;  
+  width: 20px;  
+  height: 20px;  
+  fill: #86d9f2; /* Arrow color */  
+  transition: transform 0.3s ease;  
+}  
+
+.signup-button:hover svg {  
+  transform: translateX(5px); /* Smooth arrow movement */  
+}  
